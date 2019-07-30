@@ -13,7 +13,7 @@ app.use('/api/users', users);
 app.use('/api/auth', auth);
 
 mongoose
-  .connect('mongodb://localhost:27017/user_data', {
+  .connect('mongodb://genintest1-shard-00-00-qsdmz.mongodb.net:27017/user_data', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false 
